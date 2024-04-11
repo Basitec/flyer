@@ -86,16 +86,19 @@ div.together h2{
     margin: 9em 0 0em;
 }
 @media (max-width:400px){
+    body{
+        display: contents;
+    }
     section.show{
         width: 100%;
-        height: 40em;
-     background-image: url(/img1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid #254777;
+        height: 45em;
+        background-image: url(/img1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid #254777;
     }
     div.together img{
         width: 11em;
